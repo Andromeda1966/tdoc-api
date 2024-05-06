@@ -1,0 +1,45 @@
+[
+    {
+        "scope": "http://127.0.0.1:80",
+        "method": "POST",
+        "path": "/tdoc/api/docs/search",
+        "body": "doctype=File&meta=%7B%22%24dateIns%22%3A%7B%22%24gte%22%3A%222015-09-23%22%2C%22%24lte%22%3A%222015-09-24%22%7D%7D&limit=2&complete=1",
+        "status": 200,
+        "response": {
+            "documents": [
+                {
+                    "docid": 10560,
+                    "date": "2015-09-23 14:02:31 UTC",
+                    "hash": "6B75F83719EA10D948669E9DD8CC965A8A383572797CBBE3F47A883302AB58E8",
+                    "filename": "00002940.pdf",
+                    "company": "Prova",
+                    "doctype": "File",
+                    "numpages": 12,
+                    "period": 2015,
+                    "status": "preserved",
+                    "lotto": 1443021602241,
+                    "mimetype": "application/pdf",
+                    "parcel": "3ko71ODz5ma",
+                    "metadata": {
+                        "data": "2015-09-16",
+                        "nome": "hjlkjklhk"
+                    }
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Origin",
+            "*",
+            "Vary",
+            "Accept-Encoding",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Date",
+            "Mon, 30 Apr 2018 11:12:15 GMT",
+            "Connection",
+            "close"
+        ]
+    }
+]

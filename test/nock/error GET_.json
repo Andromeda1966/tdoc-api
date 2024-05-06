@@ -1,0 +1,30 @@
+[
+    {
+        "scope": "http://127.0.0.1:80",
+        "method": "GET",
+        "path": "/tdoc/api/docs/1234567890/meta",
+        "body": "",
+        "status": 500,
+        "response": {
+            "code": 231,
+            "message": "the document 1234567890 was not found in the database",
+            "additional": [
+                "1234567890"
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Origin",
+            "*",
+            "Vary",
+            "Accept-Encoding",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Date",
+            "Mon, 30 Apr 2018 11:12:15 GMT",
+            "Connection",
+            "close"
+        ]
+    }
+]
